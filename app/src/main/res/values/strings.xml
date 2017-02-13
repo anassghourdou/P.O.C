@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">POC</string>
+    <string name="tracks_number_suffix">Titres.</string>
+    <string name="album_text">Page de gauche</string>
+    <string name="playlist_text">Page de droite</string>
+    <string name="date_creation_text">Date de création :</string>
+    <string name="album_creator">Nom du propriétaire:</string>
+</resources>

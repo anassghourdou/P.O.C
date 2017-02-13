@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    >
+
+
+
+
+    <android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_playlist"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_playlist"
+        android:layout_marginRight="16dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_playlist"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_auteur_label"
+            android:text="@string/album_creator"
+            android:layout_toRightOf="@+id/image_playlist"
+            android:layout_below="@+id/title_playlist"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_auteur"
+        android:layout_toRightOf="@+id/image_playlist"
+        android:layout_below="@+id/textView_auteur_label"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_date_creattion_label"
+            android:layout_toRightOf="@+id/image_playlist"
+            android:layout_below="@+id/textView_auteur"
+            android:textStyle="bold"
+            android:text="@string/date_creation_text"
+
+
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_date_creattion"
+            android:layout_toRightOf="@+id/image_playlist"
+            android:layout_below="@+id/textView_date_creattion_label"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_tracks_number"
+            android:layout_toLeftOf="@+id/textView_tracks_number_label"
+            android:layout_below="@+id/textView_date_creattion"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_tracks_number_label"
+            android:layout_alignBaseline="@+id/textView_tracks_number"
+            android:text="@string/tracks_number_suffix"
+            android:layout_alignParentRight="true"
+
+
+
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+</LinearLayout>
