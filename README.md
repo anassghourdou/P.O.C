@@ -13,7 +13,7 @@ l’API de deezer
 * Fragments
 * cardview
 * Sharedpreferences
-* picasso :: Bibliothèque pour affichage des immage :: http://square.github.io/picasso/
+* picasso :: Bibliothèque pour affichage des images :: http://square.github.io/picasso/
 * Android Asynchronous Http Client :: Bibliothèque pour l'utilisation des appels HTTP client asynchrones :: http://loopj.com/android-async-http/
 
 
